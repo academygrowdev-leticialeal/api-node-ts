@@ -9,7 +9,7 @@ export class PetRoutes {
         router.post('/pets', PetController.create);
         router.put('/pets/:id', PetController.update);
         router.get('/pets/:id', PetController.getById);
-        router.get('/pets/:id', PetController.delete);
+        router.delete('/pets/:id', PetController.delete);
 
         return router
     }
