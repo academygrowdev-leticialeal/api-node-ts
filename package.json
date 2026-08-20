@@ -1,0 +1,18 @@
+{
+  "name": "api-node-ts",
+  "version": "1.0.0",
+  "description": "api de estudos nodejs",
+  "license": "ISC",
+  "author": "",
+  "main": "server.ts",
+  "scripts": {
+    "start": "tsc && node ./dist/server.js",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
